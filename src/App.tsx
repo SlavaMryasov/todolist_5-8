@@ -97,8 +97,6 @@ function App() {
 
 	const removeTodolist = (todolistId: string) => {
 		dispatchTodolists(removeTodolistAC(todolistId))
-
-
 	}
 
 
@@ -106,7 +104,6 @@ function App() {
 		const todolistId = v1()
 		dispatchTasks(initializeTasksAC(todolistId))
 		dispatchTodolists(addTodolistAC(title, todolistId))
-		console.log(tasks)
 	}
 
 

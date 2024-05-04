@@ -38,7 +38,7 @@ type RemoveTodolistType = {
     }
 }
 
-type AddTodolistType = {
+export type AddTodolistType = {
     type: 'ADD-TODOLIST',
     payload: {
         title: string
